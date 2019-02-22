@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./public/css/home.css">
+</head>
+
+<body>
+<h1><i class="fa fa-check"></i>CSS To Do Checklist</h1>
+<div id="punch-list">
+  <span class="punch-wrap">
+    <input type="checkbox" id="1" checked/>
+    <label for="1" class="punch">
+      <i class="fa fa-check"></i>
+      Have a good idea
+    </label>
+    <span class="delete-item" title="remove">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div style="width:100%;margin: 3% 0 3% 0;">
+      <div class="keyvalue">key:value</div>
+      <div class="keyvalue">key:value</div>
+      <div class="keyvalue">key:value</div>
+      <div class="keyvalue">key:value</div>
+    </div>
+    <div>
+    <input type="text" class="comment-input" placeholder="comment here...">
+
+    </div>
+    <div class="abc">
+      <div class="user">
+        <i class="fa fa-user-circle-o"></i>
+        <span>User</span><span class="date">12:00:00 am</span>
+         <span class="junk">
+          comments go here, even if they are really really really long and need to line wrap.
+      </span>
+      </div>
+    </div>
+  </span>
+
+
+
+  <div id="add-punch">
+    <i class="fa fa-plus"></i>
+    Add an Item
+  </div>
+</div>
+
+<script src="./public/js/home.js"></script>
+</body>
+
+</html>
